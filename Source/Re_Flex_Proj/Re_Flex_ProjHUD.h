@@ -1,25 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
-#pragma once 
-
-#include "CoreMinimal.h"
-#include "GameFramework/HUD.h"
-#include "Re_Flex_ProjHUD.generated.h"
-
-UCLASS()
-class ARe_Flex_ProjHUD : public AHUD
-{
-	GENERATED_BODY()
-
-public:
-	ARe_Flex_ProjHUD();
-
-	/** Primary draw call for the HUD */
-	virtual void DrawHUD() override;
-
-private:
-	/** Crosshair asset pointer */
-	class UTexture2D* CrosshairTex;
-
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:be6cf14ab6d10f3ddf75d05de37574df11ca85f785559e17230a6d639eb74b83
+size 437

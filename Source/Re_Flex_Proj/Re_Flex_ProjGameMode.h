@@ -1,19 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
-#include "Re_Flex_ProjGameMode.generated.h"
-
-UCLASS(minimalapi)
-class ARe_Flex_ProjGameMode : public AGameModeBase
-{
-	GENERATED_BODY()
-
-public:
-	ARe_Flex_ProjGameMode();
-};
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bc69437be80bdb99dc20de48526e1ead60c85653761d69ad3838895c3614591
+size 326
