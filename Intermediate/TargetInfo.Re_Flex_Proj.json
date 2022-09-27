@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Re_Flex_Proj",
+			"Path": "F:\\Projects\\Re_Flex\\Re_Flex_Proj\\Source\\Re_Flex_Proj.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Re_Flex_ProjEditor",
+			"Path": "F:\\Projects\\Re_Flex\\Re_Flex_Proj\\Source\\Re_Flex_ProjEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
