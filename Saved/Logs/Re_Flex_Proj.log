@@ -4725,3 +4725,35 @@ Scale3D: 1.000000 1.000000 1.000000
 [2022.09.28-22.23.00:374][841]EditorErrors: Warning: No assets to check in!
 [2022.09.28-22.23.21:831][111]LogSlate: Window 'Source Control Login' being destroyed
 [2022.09.28-22.32.05:544][962]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.09.28-22.37.35:598][ 70]LogSlate: Window 'Message Log' being destroyed
+[2022.09.28-22.37.35:609][ 70]LogSlate: Window 'Message Log' being destroyed
+[2022.09.28-22.37.39:589][244]LogSlate: Window 'BP_Re_Flex_ProjGameMode' being destroyed
+[2022.09.28-22.37.39:591][244]LogSlate: Window 'BP_Re_Flex_ProjGameMode' being destroyed
+[2022.09.28-22.37.39:607][244]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.09.28-22.37.39:607][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.28-22.37.43:490][447]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'F:/Projects/Re_Flex/Re_Flex_Proj'
+[2022.09.28-22.37.50:818][447]LogSlate: Window 'Save Level As' being destroyed
+[2022.09.28-22.37.50:847][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../Projects/Re_Flex/Re_Flex_Proj/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.28-22.37.51:083][447]LogUObjectHash: Compacting FUObjectHashTables data took   9.49ms
+[2022.09.28-22.37.51:165][447]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/NewMap8C86C006467DEE27738924885D7DB077.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Content/NewMap.umap'
+[2022.09.28-22.37.51:347][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../Projects/Re_Flex/Re_Flex_Proj/Content/NewMap_BuiltData.uasset" SILENT=true
+[2022.09.28-22.37.51:374][447]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/NewMap_BuiltData86206CEB45482E5598968F93E944C81A.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Content/NewMap_BuiltData.uasset'
+[2022.09.28-22.37.52:438][447]LogFileHelpers: Saving map 'NewMap' took 1.613
+[2022.09.28-22.37.52:452][447]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.28-22.37.52:453][447]LogContentValidation: Display: Validating World /Game/NewMap.NewMap
+[2022.09.28-22.37.52:453][447]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/NewMap_BuiltData.NewMap_BuiltData
+[2022.09.28-22.37.52:562][452]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'F:/Projects/Re_Flex/Re_Flex_Proj'
+[2022.09.28-22.38.01:076][952]LogUObjectHash: Compacting FUObjectHashTables data took  10.04ms
+[2022.09.28-22.38.01:192][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPRe_Flex_ProjCharacter" FILE="../../../../Projects/Re_Flex/Re_Flex_Proj/Content/BPRe_Flex_ProjCharacter.uasset" SILENT=true
+[2022.09.28-22.38.01:210][952]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/BPRe_Flex_ProjCharacterABF141A44284AAE1FD9A6595A5947965.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Content/BPRe_Flex_ProjCharacter.uasset'
+[2022.09.28-22.38.02:205][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Re_Flex_ProjGameMode" FILE="../../../../Projects/Re_Flex/Re_Flex_Proj/Content/BP_Re_Flex_ProjGameMode.uasset" SILENT=true
+[2022.09.28-22.38.02:218][952]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/BP_Re_Flex_ProjGameModeB35159B94953098589794E8397267C6D.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Content/BP_Re_Flex_ProjGameMode.uasset'
+[2022.09.28-22.38.03:128][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_BasePlayerController" FILE="../../../../Projects/Re_Flex/Re_Flex_Proj/Content/Player/BP_BasePlayerController.uasset" SILENT=true
+[2022.09.28-22.38.03:147][952]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/BP_BasePlayerControllerE4E43D4F4B789FDFE9F7308FC183B538.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Content/Player/BP_BasePlayerController.uasset'
+[2022.09.28-22.38.04:135][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BaseAIController" FILE="../../../../Projects/Re_Flex/Re_Flex_Proj/Content/BP_BaseAIController.uasset" SILENT=true
+[2022.09.28-22.38.04:142][952]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/BP_BaseAIControllerAF84FB834BE22493852DE19C603D4164.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Content/BP_BaseAIController.uasset'
+[2022.09.28-22.38.05:047][952]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.28-22.38.05:047][952]LogContentValidation: Display: Validating Blueprint /Game/BPRe_Flex_ProjCharacter.BPRe_Flex_ProjCharacter
+[2022.09.28-22.38.05:047][952]LogContentValidation: Display: Validating Blueprint /Game/BP_Re_Flex_ProjGameMode.BP_Re_Flex_ProjGameMode
+[2022.09.28-22.38.05:047][952]LogContentValidation: Display: Validating Blueprint /Game/Player/BP_BasePlayerController.BP_BasePlayerController
+[2022.09.28-22.38.05:047][952]LogContentValidation: Display: Validating Blueprint /Game/BP_BaseAIController.BP_BaseAIController
