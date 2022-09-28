@@ -4757,3 +4757,5 @@ Scale3D: 1.000000 1.000000 1.000000
 [2022.09.28-22.38.05:047][952]LogContentValidation: Display: Validating Blueprint /Game/BP_Re_Flex_ProjGameMode.BP_Re_Flex_ProjGameMode
 [2022.09.28-22.38.05:047][952]LogContentValidation: Display: Validating Blueprint /Game/Player/BP_BasePlayerController.BP_BasePlayerController
 [2022.09.28-22.38.05:047][952]LogContentValidation: Display: Validating Blueprint /Game/BP_BaseAIController.BP_BaseAIController
+[2022.09.28-22.39.35:790][294]LogAnalytics: Warning: EventCache either took too long to flush (1.454 ms) or had a very large payload (0.431 KB, 1 events). Listing events in the payload for investigation:
+[2022.09.28-22.39.35:800][294]LogAnalytics: Warning:     Editor.Usage.Heartbeat,428
