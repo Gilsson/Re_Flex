@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeRe_Flex_Proj_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3E03707E,
+				0xA71D79B6,
 				0x3B8B16EB,
 				METADATA_PARAMS(nullptr, 0)
 			};

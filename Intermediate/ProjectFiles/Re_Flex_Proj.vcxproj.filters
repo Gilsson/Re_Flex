@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Re_Flex_Proj.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EF0D1533-8BD7-4CE2-BCB1-D7C1CC7610E5}</UniqueIdentifier>
+      <UniqueIdentifier>{B18A37CD-D2D2-4A42-87AE-94AA0B375CD9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Re_Flex_Proj.Target.cs">
       <Filter>Source</Filter>
@@ -12,8 +12,9 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.gitattributes" />
+    <None Include="..\..\Re_Flex_Proj.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{074AF06F-5062-4C21-B2A1-4E0DD4D01E72}</UniqueIdentifier>
+      <UniqueIdentifier>{1D22CD44-8522-46C8-ABEB-C5BD1F45B25A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Re_Flex_Proj">
-      <UniqueIdentifier>{CA63267B-719E-42F9-A1AA-8451F082AE4F}</UniqueIdentifier>
+      <UniqueIdentifier>{720843E8-316E-46F8-834F-6D53C0D01086}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Re_Flex_Proj\Re_Flex_Proj.Build.cs">
       <Filter>Source\Re_Flex_Proj</Filter>
@@ -67,10 +68,10 @@
       <Filter>Source\Re_Flex_Proj</Filter>
     </ClInclude>
     <Filter Include="Source\Re_Flex_Proj\Private">
-      <UniqueIdentifier>{5673C37F-400C-4BB0-9B36-D5F165F46602}</UniqueIdentifier>
+      <UniqueIdentifier>{C6B68E1E-49ED-4CFF-94FC-E606108BC222}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Re_Flex_Proj\Private\AI">
-      <UniqueIdentifier>{3735D9D1-F35C-4D7F-933A-86C4FD139E5A}</UniqueIdentifier>
+      <UniqueIdentifier>{5BB6833D-8EEE-4D51-983D-6B59AEAACFE8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Re_Flex_Proj\Private\AI\AIBaseController.cpp">
       <Filter>Source\Re_Flex_Proj\Private\AI</Filter>
@@ -79,10 +80,13 @@
       <Filter>Source\Re_Flex_Proj\Private\AI</Filter>
     </ClCompile>
     <Filter Include="Source\Re_Flex_Proj\Public">
-      <UniqueIdentifier>{D647DA18-3B87-4FAF-B732-B38BC3652DDA}</UniqueIdentifier>
+      <UniqueIdentifier>{82903002-AC04-4EC6-9A24-253A81FE5B77}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Re_Flex_Proj\Public\ReCoreTypes.h">
+      <Filter>Source\Re_Flex_Proj\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\Re_Flex_Proj\Public\AI">
-      <UniqueIdentifier>{4F4CA477-1151-4FB9-978D-A7B404988DBC}</UniqueIdentifier>
+      <UniqueIdentifier>{828467D5-92E5-4183-9376-0F5EB90D00B2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Re_Flex_Proj\Public\AI\AIBaseController.h">
       <Filter>Source\Re_Flex_Proj\Public\AI</Filter>

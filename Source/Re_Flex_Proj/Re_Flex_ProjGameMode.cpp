@@ -24,6 +24,18 @@ void ARe_Flex_ProjGameMode::StartPlay()
 	SpawnBot();
 }
 
+UClass* ARe_Flex_ProjGameMode::GetDefaultPawnClassForController_Implementation(AController* InController)
+{
+	if(InController && InController->IsA<AAIController>())
+	{
+		return AIPawnClass;
+	}
+	else
+	{
+		return Super::GetDefaultPawnClassForController_Implementation(InController);
+	}
+}
+
 void ARe_Flex_ProjGameMode::SpawnBot()
 {
 	if(!GetWorld()) return;

@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeRe_Flex_ProjGameMode() {}
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_Re_Flex_Proj();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController_NoRegister();
 	RE_FLEX_PROJ_API UScriptStruct* Z_Construct_UScriptStruct_FGameData();
 // End Cross Module References
@@ -34,6 +35,10 @@ void EmptyLinkFunctionForGeneratedCodeRe_Flex_ProjGameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIPawnClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_AIPawnClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIControllerClass_MetaData[];
 #endif
@@ -59,12 +64,19 @@ void EmptyLinkFunctionForGeneratedCodeRe_Flex_ProjGameMode() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIPawnClass_MetaData[] = {
+		{ "Category", "Game" },
+		{ "ModuleRelativePath", "Re_Flex_ProjGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIPawnClass = { "AIPawnClass", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARe_Flex_ProjGameMode, AIPawnClass), Z_Construct_UClass_APawn_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIPawnClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIPawnClass_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIControllerClass_MetaData[] = {
 		{ "Category", "Game" },
 		{ "ModuleRelativePath", "Re_Flex_ProjGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIControllerClass = { "AIControllerClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARe_Flex_ProjGameMode, AIControllerClass), Z_Construct_UClass_AAIController_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIControllerClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIControllerClass_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIControllerClass = { "AIControllerClass", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARe_Flex_ProjGameMode, AIControllerClass), Z_Construct_UClass_AAIController_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIControllerClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIControllerClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_GameData_MetaData[] = {
 		{ "Category", "Game" },
@@ -73,6 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeRe_Flex_ProjGameMode() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_GameData = { "GameData", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARe_Flex_ProjGameMode, GameData), Z_Construct_UScriptStruct_FGameData, METADATA_PARAMS(Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_GameData_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_GameData_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIPawnClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_AIControllerClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARe_Flex_ProjGameMode_Statics::NewProp_GameData,
 	};
@@ -103,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeRe_Flex_ProjGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARe_Flex_ProjGameMode, 3091745221);
+	IMPLEMENT_CLASS(ARe_Flex_ProjGameMode, 82191406);
 	template<> RE_FLEX_PROJ_API UClass* StaticClass<ARe_Flex_ProjGameMode>()
 	{
 		return ARe_Flex_ProjGameMode::StaticClass();
