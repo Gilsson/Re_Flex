@@ -2296,3 +2296,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.29-23.47.37:236][407]MapCheck: New page: FirstPersonExampleMap - Sep 30, 2022, 5:47:37 AM
 [2022.09.29-23.47.37:236][407]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.768ms to complete.
 [2022.09.29-23.47.43:709][793]LogSlate: Window 'Source Control Login' being destroyed
+[2022.09.29-23.48.41:808][362]LogAssetRegistry: Error: Package F:/Projects/Re_Flex/Re_Flex_Proj/Content/BP_Re_Flex_ProjGameMode.uasset has malformed tag
+[2022.09.29-23.48.42:155][364]LogAssetRegistry: Error: Package F:/Projects/Re_Flex/Re_Flex_Proj/Content/BP_Re_Flex_ProjGameMode.uasset has malformed tag
