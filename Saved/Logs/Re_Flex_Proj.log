@@ -2298,3 +2298,34 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.29-23.47.43:709][793]LogSlate: Window 'Source Control Login' being destroyed
 [2022.09.29-23.48.41:808][362]LogAssetRegistry: Error: Package F:/Projects/Re_Flex/Re_Flex_Proj/Content/BP_Re_Flex_ProjGameMode.uasset has malformed tag
 [2022.09.29-23.48.42:155][364]LogAssetRegistry: Error: Package F:/Projects/Re_Flex/Re_Flex_Proj/Content/BP_Re_Flex_ProjGameMode.uasset has malformed tag
+[2022.09.29-23.51.04:094][859]Candidate modules for hot reload:
+[2022.09.29-23.51.04:094][859]  Re_Flex_Proj
+[2022.09.29-23.51.04:094][859]Launching UnrealBuildTool... [F:/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Re_Flex_Proj,4544 Re_Flex_ProjEditor Win64 Development -Project="F:/Projects/Re_Flex/Re_Flex_Proj/Re_Flex_Proj.uproject" "F:/Projects/Re_Flex/Re_Flex_Proj/Re_Flex_Proj.uproject"  -IgnoreJunk]
+[2022.09.29-23.51.04:097][859]Warning: Starting HotReload took  0.0s.
+[2022.09.29-23.51.07:315][977]CompilerResultsLog: New page: Compilation - Sep 30, 2022, 5:51:07 AM
+[2022.09.29-23.51.07:315][977]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\Projects\Re_Flex\Re_Flex_Proj).
+[2022.09.29-23.51.07:315][977]CompilerResultsLog: Building Re_Flex_ProjEditor...
+[2022.09.29-23.51.07:315][977]CompilerResultsLog: Using Visual Studio 2022 14.33.31629 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.20348.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.09.29-23.51.07:315][977]CompilerResultsLog: Building 3 actions with 8 processes...
+[2022.09.29-23.51.07:315][977]CompilerResultsLog:   [1/3] UE4Editor-Re_Flex_Proj-4544.lib
+[2022.09.29-23.51.07:315][977]CompilerResultsLog:      Creating library F:\Projects\Re_Flex\Re_Flex_Proj\Intermediate\Build\Win64\UE4Editor\Development\Re_Flex_Proj\UE4Editor-Re_Flex_Proj-4544.lib and object F:\Projects\Re_Flex\Re_Flex_Proj\Intermediate\Build\Win64\UE4Editor\Development\Re_Flex_Proj\UE4Editor-Re_Flex_Proj-4544.exp
+[2022.09.29-23.51.07:316][977]CompilerResultsLog:   [2/3] UE4Editor-Re_Flex_Proj-4544.dll
+[2022.09.29-23.51.07:316][977]CompilerResultsLog:      Creating library F:\Projects\Re_Flex\Re_Flex_Proj\Intermediate\Build\Win64\UE4Editor\Development\Re_Flex_Proj\UE4Editor-Re_Flex_Proj-4544.suppressed.lib and object F:\Projects\Re_Flex\Re_Flex_Proj\Intermediate\Build\Win64\UE4Editor\Development\Re_Flex_Proj\UE4Editor-Re_Flex_Proj-4544.suppressed.exp
+[2022.09.29-23.51.07:316][977]CompilerResultsLog:   [3/3] Re_Flex_ProjEditor.target
+[2022.09.29-23.51.07:316][977]CompilerResultsLog: Total time in Parallel executor: 1.45 seconds
+[2022.09.29-23.51.07:316][977]CompilerResultsLog: Total execution time: 2.99 seconds
+[2022.09.29-23.51.07:316][977]LogMainFrame: MainFrame: Module compiling took 3.229 seconds
+[2022.09.29-23.51.07:339][977]LogClass: GameData HotReload.
+[2022.09.29-23.51.07:350][977]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Re_Flex_Proj' in 0.0003 seconds. Added 6 classes and 4 folders.
+[2022.09.29-23.51.07:357][977]Display: HotReload successful (1 functions remapped  1 scriptstructs remapped)
+[2022.09.29-23.51.07:436][977]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0086 seconds. Added 3828 classes and 932 folders.
+[2022.09.29-23.51.07:436][977]Display: HotReload took  3.3s.
+[2022.09.29-23.57.30:365][118]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2022.09.29-23.57.30:447][118]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/FirstPersonExampleMap_Auto279BF8A0444D99774C880758CD52B66EB.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2022.09.29-23.57.30:451][118]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.249
+[2022.09.29-23.57.30:452][118]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.249
+[2022.09.29-23.57.30:453][118]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_Re_Flex_ProjGameMode] ([2] browsable assets)...
+[2022.09.29-23.57.30:453][118]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Re_Flex_ProjGameMode]
+[2022.09.29-23.57.30:453][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Re_Flex_ProjGameMode" FILE="../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/Autosaves/Game/BP_Re_Flex_ProjGameMode_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.09.29-23.57.30:470][118]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/BP_Re_Flex_ProjGameMode_Auto2C7E23CD14D63D02F829B31A89E7114D2.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/Autosaves/Game/BP_Re_Flex_ProjGameMode_Auto2.uasset'
+[2022.09.29-23.57.30:471][118]LogFileHelpers: Auto-saving content packages took 0.019
