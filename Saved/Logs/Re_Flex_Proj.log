@@ -2329,3 +2329,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.29-23.57.30:453][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Re_Flex_ProjGameMode" FILE="../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/Autosaves/Game/BP_Re_Flex_ProjGameMode_Auto2.uasset" SILENT=false AUTOSAVING=true
 [2022.09.29-23.57.30:470][118]LogSavePackage: Moving '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/BP_Re_Flex_ProjGameMode_Auto2C7E23CD14D63D02F829B31A89E7114D2.tmp' to '../../../../Projects/Re_Flex/Re_Flex_Proj/Saved/Autosaves/Game/BP_Re_Flex_ProjGameMode_Auto2.uasset'
 [2022.09.29-23.57.30:471][118]LogFileHelpers: Auto-saving content packages took 0.019
+[2022.09.30-00.05.40:008][621]LogAssetRegistry: Error: Package F:/Projects/Re_Flex/Re_Flex_Proj/Content/BP_Re_Flex_ProjGameMode.uasset has malformed tag
+[2022.09.30-00.05.40:344][623]LogAssetRegistry: Error: Package F:/Projects/Re_Flex/Re_Flex_Proj/Content/BP_Re_Flex_ProjGameMode.uasset has malformed tag
