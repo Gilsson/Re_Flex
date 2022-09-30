@@ -16,6 +16,8 @@ void AAICharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	FVector Location = FVector(FMath::RandRange(-1000, 1500),FMath::RandRange(-1000, 1000), 300);
+	SetActorLocation(Location);
 }
 
 // Called every frame
